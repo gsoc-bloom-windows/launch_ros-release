@@ -1,4 +1,0 @@
-Source: ros-dashing-test-launch-ros
-Version: 0.8.0
-Description: Tests for ROS specific extensions to the launch tool.
-Build-Depends: ros-dashing-ament-copyright, ros-dashing-ament-pep257, ros-dashing-ament-flake8, ros-dashing-demo-nodes-py, ros-dashing-launch-ros, ros-dashing-ros-workspace
