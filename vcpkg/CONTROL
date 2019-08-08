@@ -1,0 +1,4 @@
+Source: ros-dashing-launch-testing-ros
+Version: 0.8.4
+Description: A package providing utilities for writing ROS2 enabled launch tests.
+Build-Depends:
