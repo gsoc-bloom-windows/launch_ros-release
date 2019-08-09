@@ -1,21 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-launch-ros</id>
-    <version>0.8.4</version>
-    <title>ros-dashing-launch-ros</title>
-    <authors>William Woodall</authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>ROS specific extensions to the launch tool.</description>
+    <description>@(Description)</description>
     <dependencies>
-		<dependency id="ros-dashing-ament-index-python"/>
-		<dependency id="ros-dashing-composition-interfaces"/>
-		<dependency id="ros-dashing-launch"/>
-		<dependency id="ros-dashing-lifecycle-msgs"/>
-		<dependency id="ros-dashing-osrf-pycommon"/>
-		<dependency id="ros-dashing-rclpy"/>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
